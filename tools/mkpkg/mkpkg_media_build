@@ -25,7 +25,7 @@ rm -rf media_tree/
 echo "getting media_build sources ..."
 
 if [ ! -d media_build.git ]; then
-  git clone https://bitbucket.org/CrazyCat/media_build.git media_build/
+  git clone https://github.com/tbsdtv/media_build.git media_build/
 fi
 
 #get log
